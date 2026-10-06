@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nikhar – Free Image Enhancer: Blurry Photos to Sharp 4K &amp; 8K Online</title>
+<meta name="description" content="Upload any blurry or low-resolution photo and upscale it to 2x, 4K or 8K with sharpening. Free, no signup, runs privately in your browser.">
+<meta name="keywords" content="nikhar, image enhancer, photo upscaler, blurry image fix, 4K image converter, 8K image upscale, increase image resolution, free online">
+<meta property="og:site_name" content="Nikhar">
+<meta property="og:title" content="Nikhar – Free Image Enhancer, Blurry Photo to 4K / 8K">
+<meta property="og:description" content="Upscale and sharpen any image online. No signup, no upload to servers.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Nikhar – Free Image Enhancer","author":{"@type":"Person","name":"Shani Verma"},"applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Upscale and sharpen blurry images to 2x, 4K or 8K in your browser."}
+</script>
+<style>
+:root{--bg:#eef2f1;--card:#fff;--ink:#12201c;--mute:#5b6b66;--line:#d5dedb;--acc:#2447f5;--acc-ink:#fff;--soft:#e3e9ff}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1715;--card:#17211e;--ink:#e8f0ed;--mute:#9bb0a9;--line:#2a3a35;--acc:#7b94ff;--acc-ink:#0b1020;--soft:#1f2a52}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari",sans-serif}
+header,main,footer{max-width:960px;margin:0 auto;padding:0 18px}
+header{padding-top:22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.logo span{color:var(--mute);font-weight:500;font-size:.85rem;margin-left:8px}
+h1{font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.08;letter-spacing:-.025em;margin:30px 0 10px;max-width:16ch}
+.sub{color:var(--mute);max-width:52ch;margin:0 0 26px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.drop{display:block;border:2px dashed var(--line);border-radius:14px;padding:38px 16px;text-align:center;cursor:pointer;transition:border-color .15s,background .15s}
+.drop:hover,.drop.over,.drop:focus-within{border-color:var(--acc);background:var(--soft)}
+.drop b{display:block;font-size:1.1rem}
+.drop small{color:var(--mute)}
+.drop input{position:absolute;opacity:0;width:1px;height:1px}
+fieldset{border:0;padding:0;margin:20px 0 0}
+legend{font-weight:700;margin-bottom:8px}
+.opts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.opts label{border:1.5px solid var(--line);border-radius:12px;padding:10px 8px;text-align:center;cursor:pointer;font-weight:600;line-height:1.25}
+.opts label small{display:block;font-weight:400;color:var(--mute)}
+.opts input{position:absolute;opacity:0}
+.opts label:has(input:checked){border-color:var(--acc);background:var(--soft)}
+.opts label:has(input:focus-visible){outline:3px solid var(--acc);outline-offset:2px}
+.row{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:18px}
+.row label{font-weight:600}
+input[type=range]{accent-color:var(--acc);width:min(220px,60vw)}
+select{font:inherit;padding:7px 10px;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+button,.btn{font:inherit;font-weight:700;border:0;border-radius:12px;padding:13px 22px;background:var(--acc);color:var(--acc-ink);cursor:pointer;text-decoration:none;display:inline-block}
+button:disabled{opacity:.45;cursor:not-allowed}
+button:focus-visible,.btn:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+#status{margin:14px 0 0;color:var(--mute);min-height:1.5em}
+#status.err{color:#c0392b}
+.cmp{display:none;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+.cmp.on{display:grid}
+.cmp figure{margin:0;min-width:0}
+.cmp figcaption{font-weight:700;margin-bottom:6px}
+.cmp figcaption small{font-weight:400;color:var(--mute)}
+.cmp img,.cmp canvas{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);background:repeating-conic-gradient(#8883 0 25%,#0000 0 50%) 0 0/16px 16px}
+#dl{display:none;margin-top:16px}
+section{margin:46px 0}
+h2{font-size:1.4rem;letter-spacing:-.01em;margin:0 0 12px}
+ol{padding-left:1.2em;max-width:60ch}
+details{border-top:1px solid var(--line);padding:12px 0;max-width:68ch}
+summary{font-weight:700;cursor:pointer}
+details p{margin:8px 0 0;color:var(--mute)}
+footer{padding-bottom:40px;color:var(--mute);font-size:.9rem}
+@media (max-width:560px){.cmp.on{grid-template-columns:1fr}.opts{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="logo">Nikhar<span>Photo Enhancer</span></div></header>
+<main>
+  <h1>Turn blurry photos into sharp 4K and 8K</h1>
+  <p class="sub">Koi bhi dhundhli ya choti image upload karein, size chunein, aur behtar quality mein download karein. Free hai, signup nahi, aur photo aapke device se bahar nahi jaati.</p>
+
+  <div class="tool">
+    <label class="drop" id="drop">
+      <input type="file" id="file" accept="image/*">
+      <b id="dropTitle">Choose a photo or drop it here</b>
+      <small>JPG, PNG, WebP</small>
+    </label>
+
+    <fieldset>
+      <legend>Output size</legend>
+      <div class="opts">
+        <label><input type="radio" name="size" value="2" checked>2× larger<small>Quick boost</small></label>
+        <label><input type="radio" name="size" value="3840">4K<small>3840 px wide edge</small></label>
+        <label><input type="radio" name="size" value="7680">8K<small>7680 px wide edge</small></label>
+      </div>
+    </fieldset>
+
+    <div class="row">
+      <label for="amt">Sharpness</label>
+      <input type="range" id="amt" min="0" max="100" value="55">
+      <label for="fmt">Save as</label>
+      <select id="fmt"><option value="image/png">PNG (best quality)</option><option value="image/jpeg">JPG (smaller file)</option></select>
+    </div>
+
+    <div class="row"><button id="go" disabled>Enhance image</button></div>
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <div class="cmp" id="cmp">
+      <figure><figcaption>Original <small id="s1"></small></figcaption><img id="orig" alt="Original image"></figure>
+      <figure><figcaption>Enhanced <small id="s2"></small></figcaption><div id="outWrap"></div></figure>
+    </div>
+    <a id="dl" class="btn" download="enhanced.png">Download enhanced image</a>
+  </div>
+
+  <section>
+    <h2>How it works</h2>
+    <ol>
+      <li>Upload the photo you want to improve.</li>
+      <li>Pick 2×, 4K or 8K and set how sharp the result should be.</li>
+      <li>Press Enhance image, then download the result.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Questions</h2>
+    <details><summary>Is my photo uploaded anywhere?</summary><p>No. Everything happens inside your browser, so your image stays on your device.</p></details>
+    <details><summary>Will a very blurry photo become perfectly clear?</summary><p>The tool enlarges the image smoothly and sharpens edges, which makes soft photos look cleaner at large sizes. It cannot invent detail that was never captured, so very small or badly blurred photos improve less.</p></details>
+    <details><summary>8K does not work on my phone. Why?</summary><p>8K images need a lot of memory. If your device runs out, choose 4K instead, or try on a computer.</p></details>
+    <details><summary>Is it free?</summary><p>Yes, there is no signup and no limit on how many photos you enhance.</p></details>
+  </section>
+</main>
+<footer>© <span id="yr"></span> Nikhar – Free online image enhancer. Made by Shani Verma.</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+let img=null,fname='image';
+$('yr').textContent=new Date().getFullYear();
+const tick=()=>new Promise(r=>setTimeout(r,30));
+const say=(t,e)=>{$('status').textContent=t;$('status').className=e?'err':''};
+
+function load(f){
+  if(!f||!f.type.startsWith('image/')){say('Please choose an image file.',1);return}
+  fname=f.name.replace(/\.[^.]+$/,'');
+  const url=URL.createObjectURL(f),im=new Image();
+  im.onload=()=>{
+    img=im;$('orig').src=url;$('s1').textContent=im.naturalWidth+' × '+im.naturalHeight;
+    $('cmp').classList.add('on');$('outWrap').innerHTML='';$('s2').textContent='';
+    $('dl').style.display='none';$('go').disabled=false;
+    $('dropTitle').textContent=f.name;say('Ready. Choose a size and press Enhance image.');
+  };
+  im.onerror=()=>say('This image could not be opened. Try a JPG or PNG.',1);
+  im.src=url;
+}
+$('file').onchange=e=>load(e.target.files[0]);
+const dz=$('drop');
+['dragover','dragenter'].forEach(ev=>dz.addEventListener(ev,e=>{e.preventDefault();dz.classList.add('over')}));
+['dragleave','drop'].forEach(ev=>dz.addEventListener(ev,e=>{e.preventDefault();dz.classList.remove('over')}));
+dz.addEventListener('drop',e=>load(e.dataTransfer.files[0]));
+
+function sharpen(ctx,w,h,a){
+  if(a<=0)return;
+  const im=ctx.getImageData(0,0,w,h),d=im.data,rb=w*4;
+  const prev=new Uint8ClampedArray(rb),cur=new Uint8ClampedArray(rb);
+  prev.set(d.subarray(0,rb));
+  for(let y=1;y<h-1;y++){
+    cur.set(d.subarray(y*rb,(y+1)*rb));
+    for(let x=1;x<w-1;x++){
+      const o=x*4,i=y*rb+o;
+      for(let c=0;c<3;c++){
+        d[i+c]=cur[o+c]*(1+4*a)-a*(prev[o+c]+d[i+c+rb]+cur[o-4+c]+cur[o+4+c]);
+      }
+    }
+    prev.set(cur);
+    if(y%400===0)null;
+  }
+  ctx.putImageData(im,0,0);
+}
+
+$('go').onclick=async()=>{
+  if(!img)return;
+  $('go').disabled=true;$('dl').style.display='none';
+  try{
+    const w=img.naturalWidth,h=img.naturalHeight,long=Math.max(w,h);
+    const v=+document.querySelector('input[name=size]:checked').value;
+    let scale=v===2?2:v/long; if(scale<1)scale=1;
+    const tw=Math.round(w*scale),th=Math.round(h*scale);
+    say('Enlarging…');await tick();
+    let src=img,cw=w,ch=h;
+    while(cw<tw){
+      const nw=Math.min(tw,cw*2),nh=Math.round(nw*h/w);
+      const c=document.createElement('canvas');c.width=nw;c.height=nh;
+      const x=c.getContext('2d');x.imageSmoothingEnabled=true;x.imageSmoothingQuality='high';
+      x.drawImage(src,0,0,nw,nh);src=c;cw=nw;ch=nh;await tick();
+    }
+    let out=src;
+    if(out===img){out=document.createElement('canvas');out.width=w;out.height=h;out.getContext('2d').drawImage(img,0,0)}
+    const ctx=out.getContext('2d');
+    say('Sharpening…');await tick();
+    sharpen(ctx,out.width,out.height,$('amt').value/100*0.8);
+    say('Preparing download…');await tick();
+    const type=$('fmt').value;
+    const blob=await new Promise(r=>out.toBlob(r,type,0.95));
+    if(!blob)throw new Error('mem');
+    out.removeAttribute('style');
+    $('outWrap').innerHTML='';$('outWrap').appendChild(out);
+    $('s2').textContent=out.width+' × '+out.height;
+    const dl=$('dl');dl.href=URL.createObjectURL(blob);
+    dl.download=fname+'-enhanced-'+out.width+'px.'+(type==='image/png'?'png':'jpg');
+    dl.style.display='inline-block';
+    say('Done. Your enhanced image is ready.');
+  }catch(e){
+    say('Your device ran out of memory for this size. Please choose 4K or 2× and try again.',1);
+  }
+  $('go').disabled=false;
+};
+</script>
+</body>
+</html>
